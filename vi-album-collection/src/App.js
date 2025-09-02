@@ -2,7 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import allAlbums from "./Albums.js";
 
-import { FaArrowUp } from "react-icons/fa";
+import { FaArrowUp, FaStar, FaCheck } from "react-icons/fa";
 
 function App() {
   const artists = [
@@ -24,8 +24,6 @@ function App() {
   const [showOwned, setShowOwned] = useState(false);
   const [showUnowned, setShowUnowned] = useState(false);
   const [showWishlist, setShowWishlist] = useState(false);
-
-  const UpArrow: IconType = FaArrowUp;
 
   const filterFunction = (
     searchVal,
@@ -163,9 +161,11 @@ function App() {
           }}
         >
           {album.owned ? (
-            <div className="albumStatusSymbol">&#10004;</div>
+            //<div className="albumStatusSymbol">&#10004;</div>
+            <FaCheck className="albumStatusSymbol" />
           ) : album.wishlist ? (
-            <div className="albumStatusSymbol">&#10022;</div>
+            //<div className="albumStatusSymbol">&#10022;</div>
+            <FaStar className="albumStatusSymbol" />
           ) : (
             <></>
           )}
@@ -215,7 +215,7 @@ function App() {
                 name="Owned"
                 onChange={() => handleOwnedClick()}
               />
-              <label for="owned">Owned&#10004;</label>
+              <label for="owned">Owned</label>
             </div>
             <div className="checkContainer">
               <input
@@ -223,7 +223,7 @@ function App() {
                 name="unowned"
                 onChange={() => handleUnownedClick()}
               />
-              <label for="unowned">Unowned&#10007;</label>
+              <label for="unowned">Unowned</label>
             </div>
             <div className="checkContainer">
               <input
@@ -231,7 +231,10 @@ function App() {
                 name="Wishlist"
                 onChange={() => handleWishClick()}
               />
-              <label for="wishlist">Wishlist&#10022;</label>
+              <label for="wishlist">
+                Wishlist
+                <FaStar style={{ marginLeft: "3px" }} />
+              </label>
             </div>
           </div>
         </div>
@@ -264,7 +267,7 @@ function App() {
         </div>
       </div>
       <a href="#banner" className="upbtn">
-        <UpArrow />
+        <FaArrowUp />
       </a>
     </div>
   );

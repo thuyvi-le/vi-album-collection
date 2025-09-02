@@ -357,7 +357,7 @@ const allAlbums = [
     owned: false,
     wishlist: false,
     notes: "",
-    img: "only-offair.webp",
+    img: "defaultimg.webp",
   },
   {
     artist: "The Boyz",
@@ -365,7 +365,7 @@ const allAlbums = [
     owned: false,
     wishlist: true,
     notes: "",
-    img: "blbl-bloom.webp",
+    img: "defaultimg.webp",
   },
   {
     artist: "The Boyz",
@@ -373,7 +373,7 @@ const allAlbums = [
     owned: false,
     wishlist: false,
     notes: "",
-    img: "blbl-heart.webp",
+    img: "defaultimg.webp",
   },
   {
     artist: "The Boyz",
@@ -613,7 +613,7 @@ const allAlbums = [
     owned: false,
     wishlist: false,
     notes: "",
-    img: "trigger-flash.webp",
+    img: "defaultimg.webp",
   },
   {
     artist: "The Boyz",
@@ -621,7 +621,7 @@ const allAlbums = [
     owned: false,
     wishlist: false,
     notes: "",
-    img: "trigger-riot.webp",
+    img: "defaultimg.webp",
   },
   {
     artist: "The Boyz",
@@ -629,7 +629,7 @@ const allAlbums = [
     owned: false,
     wishlist: false,
     notes: "",
-    img: "trigger-vanguard.webp",
+    img: "defaultimg.webp",
   },
   {
     artist: "The Boyz",
@@ -1181,7 +1181,7 @@ const allAlbums = [
     owned: false,
     wishlist: false,
     notes: "",
-    img: "rockstar-rock.webp",
+    img: "defaultimg.webp",
   },
   {
     artist: "Stray Kids",
@@ -1189,7 +1189,7 @@ const allAlbums = [
     owned: false,
     wishlist: false,
     notes: "",
-    img: "rockstar-roll.webp",
+    img: "defaultimg.webp",
   },
   {
     artist: "Stray Kids",
@@ -1197,7 +1197,7 @@ const allAlbums = [
     owned: false,
     wishlist: false,
     notes: "",
-    img: "rockstar-star.webp",
+    img: "defaultimg.webp",
   },
   {
     artist: "Stray Kids",
@@ -1245,7 +1245,7 @@ const allAlbums = [
     owned: false,
     wishlist: false,
     notes: "",
-    img: "karma-ceremony.webp",
+    img: "defaultimg.webp",
   },
   {
     artist: "Stray Kids",
@@ -1253,7 +1253,7 @@ const allAlbums = [
     owned: false,
     wishlist: false,
     notes: "",
-    img: "karma-hooray.webp",
+    img: "defaultimg.webp",
   },
   {
     artist: "Stray Kids",
@@ -1261,7 +1261,7 @@ const allAlbums = [
     owned: false,
     wishlist: false,
     notes: "",
-    img: "karma-karma.webp",
+    img: "defaultimg.webp",
   },
   {
     artist: "Ateez",
