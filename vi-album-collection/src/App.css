@@ -71,7 +71,7 @@ span {
 #lastUpdated {
   position: absolute;
   z-index: 1;
-  top: 65px;
+  top: 70px;
   color: white;
 
   font-size: 10px;
@@ -122,7 +122,7 @@ span {
   display: flex;
   justify-content: center;
   padding-top: 1%;
-  width: 80%;
+  width: 100%;
 }
 
 .checkContainer {
@@ -177,7 +177,6 @@ span {
   justify-content: end;
 }
 .albumStatusSymbol {
-  font-size: 20px;
   color: rgb(248, 145, 163);
   padding: 3%;
 }
@@ -233,17 +232,17 @@ span {
   }
 
   #subtitle {
-    font-size: 30px;
+    font-size: 20px;
+    top: 15px;
   }
 
   #title {
-    font-size: 60px;
-    top: 10px;
+    font-size: 65px;
   }
 
   #lastUpdated {
     top: 85px;
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .searchContainer {

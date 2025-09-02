@@ -161,10 +161,8 @@ function App() {
           }}
         >
           {album.owned ? (
-            //<div className="albumStatusSymbol">&#10004;</div>
             <FaCheck className="albumStatusSymbol" />
           ) : album.wishlist ? (
-            //<div className="albumStatusSymbol">&#10022;</div>
             <FaStar className="albumStatusSymbol" />
           ) : (
             <></>
@@ -233,7 +231,7 @@ function App() {
               />
               <label for="wishlist">
                 Wishlist
-                <FaStar style={{ marginLeft: "3px" }} />
+                <FaStar style={{ marginLeft: "3px", verticalAlign: "top" }} />
               </label>
             </div>
           </div>
