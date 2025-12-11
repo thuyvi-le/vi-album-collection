@@ -13,6 +13,8 @@ function App() {
     "Stray Kids",
     "Ateez",
     "Enhypen",
+    "Twice",
+    "Seventeen",
     "Pentagon",
     "Lesserafim",
   ];
@@ -183,7 +185,7 @@ function App() {
         <h1 id="title" className="lavishly-yours-regular">
           &#10047; <span>collection</span> &#10047;
         </h1>
-        <h2 id="lastUpdated">last updated: 2025/08/30</h2>
+        <h2 id="lastUpdated">last updated: 2025/12/11</h2>
       </div>
       <div className="body">
         <div className="filterContainer">
