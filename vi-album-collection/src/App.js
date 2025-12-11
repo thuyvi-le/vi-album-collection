@@ -2,7 +2,13 @@ import "./App.css";
 import { useState } from "react";
 import allAlbums from "./Albums.js";
 
-import { FaArrowUp, FaStar, FaCheck } from "react-icons/fa";
+import {
+  FaArrowUp,
+  FaStar,
+  FaCheck,
+  FaChevronDown,
+  FaChevronUp,
+} from "react-icons/fa";
 
 function App() {
   const artists = [
@@ -26,6 +32,7 @@ function App() {
   const [showOwned, setShowOwned] = useState(false);
   const [showUnowned, setShowUnowned] = useState(false);
   const [showWishlist, setShowWishlist] = useState(false);
+  const [showTips, setShowTips] = useState(false);
 
   const filterFunction = (
     searchVal,
@@ -238,6 +245,60 @@ function App() {
             </div>
           </div>
         </div>
+
+        <h2>
+          <span>TIPS </span>
+          <button className="tipBtn" onClick={() => setShowTips(!showTips)}>
+            {showTips ? <FaChevronDown /> : <FaChevronUp />}
+          </button>
+        </h2>
+        {showTips ? (
+          <div>
+            <p className="tipHeader">Q: Where to buy albums?</p>
+            <ul>
+              <FaStar style={{ padding: "0 2px" }} />
+              <b>LightUpK</b> best prices, they have an{" "}
+              <a href="https://lightupk.com/">online shop</a> and physical
+              stores in Toronto and Montreal. Easily the best place to shop if
+              you have 5-10 days to wait for shipping.
+            </ul>
+            <ul>
+              <b>Sukoshi Mart</b> convenient for in-person shopping, their
+              prices are only a few dollars more expensive than when shopping
+              online.
+            </ul>
+            <ul>
+              <b>Sunrise Records</b> a LOT pricier than shopping online but they
+              have stores everywhere so it's really convenient.
+            </ul>
+            <ul>
+              <b>Sarah & Tom</b> pricier and their physical stores in Ottawa,
+              Toronto, and Montreal are a bit harder to access. But they easily
+              have the best variety on par with LightUpK's online store.
+            </ul>
+            <p className="tipHeader">Q: Biases?</p>
+            <ul>
+              <b>TXT</b> Beomgyu
+            </ul>
+            <ul>
+              <b>Astro</b> JinJin
+            </ul>
+            <ul>
+              <b>Stray Kids</b> Seungmin
+            </ul>
+            <ul>
+              <b>Ateez</b> Yeosang
+            </ul>
+            <ul>
+              <b>Enhypen</b> Jake
+            </ul>
+            <ul>
+              <b>Twice</b> Mina
+            </ul>
+          </div>
+        ) : (
+          <></>
+        )}
 
         <h2>ARTISTS</h2>
         <div className="artistsContainer">

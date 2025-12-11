@@ -131,6 +131,30 @@ span {
   margin: 0 2%;
 }
 
+.tipHeader {
+  font-weight: 500;
+  margin: 2px 0;
+
+  color: indianred;
+}
+
+.tipBtn {
+  background-color: transparent;
+  border: none;
+  color: rosybrown;
+  padding: 0;
+}
+
+ul {
+   list-style-type: circle;
+   padding-left: 5%;
+}
+
+a {
+  color: rosybrown;
+  text-underline-offset: 3px;
+}
+
 .artistsContainer {
   display: flex;
   flex-wrap: wrap;
@@ -171,7 +195,6 @@ span {
   background-image: url("../public/album-pics/defaultimg.webp");
   background-size: cover;
   background-position: center;
-  background-color:floralwhite;
 
   display: flex;
   justify-content: end;

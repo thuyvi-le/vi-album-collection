@@ -320,6 +320,14 @@ const allAlbums = [
     img: "tsc-starlight.webp",
   },
   {
+    artist: "TXT",
+    albumName: "Beomgyu's Mixtape - Panic",
+    owned: false,
+    wishlist: true,
+    notes: "",
+    img: "panic.png",
+  },
+  {
     artist: "The Boyz",
     albumName: "Lightstick",
     owned: false,
@@ -681,7 +689,7 @@ const allAlbums = [
   },
   {
     artist: "The Boyz",
-    albumName: "Unexpected [Decome]",
+    albumName: "Unexpected [Become]",
     owned: false,
     wishlist: false,
     notes: "",
