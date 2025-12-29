@@ -258,8 +258,8 @@ const allAlbums = [
   {
     artist: "TXT",
     albumName: "Minisode 3: TOMORROW [Light]",
-    owned: false,
-    wishlist: true,
+    owned: true,
+    wishlist: false,
     notes: "Pls the Beomgyu version asdlfkajdflajdfla",
     img: "mini3-light.webp",
   },
