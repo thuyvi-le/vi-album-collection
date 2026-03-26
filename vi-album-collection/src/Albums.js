@@ -1834,8 +1834,8 @@ const allAlbums = [
   {
     artist: "Enhypen",
     albumName: "Dark Blood [Half]",
-    owned: false,
-    wishlist: true,
+    owned: true,
+    wishlist: false,
     notes: "",
     img: "darkblood-half.webp",
   },
