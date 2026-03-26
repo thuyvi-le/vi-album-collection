@@ -19,6 +19,7 @@ function App() {
     "Stray Kids",
     "Ateez",
     "Enhypen",
+    "BTS",
     "Twice",
     "Seventeen",
     "Pentagon",
@@ -39,7 +40,7 @@ function App() {
     ownedVal,
     unownedVal,
     wishlistVal,
-    artistsVal
+    artistsVal,
   ) => {
     let res = allAlbums;
 
@@ -76,8 +77,8 @@ function App() {
         showOwned,
         showUnowned,
         !showWishlist,
-        selectedArtists
-      )
+        selectedArtists,
+      ),
     );
 
     setShowWishlist(!showWishlist);
@@ -90,8 +91,8 @@ function App() {
         !showOwned,
         showUnowned,
         showWishlist,
-        selectedArtists
-      )
+        selectedArtists,
+      ),
     );
 
     setShowOwned(!showOwned);
@@ -104,8 +105,8 @@ function App() {
         showOwned,
         !showUnowned,
         showWishlist,
-        selectedArtists
-      )
+        selectedArtists,
+      ),
     );
 
     setShowUnowned(!showUnowned);
@@ -124,7 +125,7 @@ function App() {
     setSelectedArtists(artistArr);
 
     setFilteredAlbums(
-      filterFunction(search, showOwned, showUnowned, showWishlist, artistArr)
+      filterFunction(search, showOwned, showUnowned, showWishlist, artistArr),
     );
   };
 
@@ -135,15 +136,15 @@ function App() {
         showOwned,
         showUnowned,
         showWishlist,
-        selectedArtists
-      )
+        selectedArtists,
+      ),
     );
     setSearch(searchInput);
   };
 
   const handleSearchErase = () => {
     setFilteredAlbums(
-      filterFunction("", showOwned, showUnowned, showWishlist, selectedArtists)
+      filterFunction("", showOwned, showUnowned, showWishlist, selectedArtists),
     );
     setSearchInput("");
     setSearch("");

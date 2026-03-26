@@ -2087,6 +2087,14 @@ const allAlbums = [
     notes: "",
     img: "hot-tannedguaiac.jpg",
   },
+  {
+    artist: "BTS",
+    albumName: "ARIRANG [Living Legend]",
+    owned: true,
+    wishlist: false,
+    notes: "",
+    img: "arirang-livinglegend.jpeg",
+  },
 ];
 
 export default allAlbums;
