@@ -193,7 +193,7 @@ function App() {
         <h1 id="title" className="lavishly-yours-regular">
           &#10047; <span>collection</span> &#10047;
         </h1>
-        <h2 id="lastUpdated">last updated: 2026/01/22</h2>
+        <h2 id="lastUpdated">last updated: 2026/06/02</h2>
       </div>
       <div className="body">
         <div className="filterContainer">
@@ -266,11 +266,12 @@ function App() {
             <ul>
               <b>Sukoshi Mart</b> convenient for in-person shopping, their
               prices are only a few dollars more expensive than when shopping
-              online.
+              online. It may also be harder to find a specific album here.
             </ul>
             <ul>
               <b>Sunrise Records</b> a LOT pricier than shopping online but they
-              have stores everywhere so it's really convenient.
+              have stores everywhere so it's really convenient. Their variety
+              also tend to be pretty good.
             </ul>
             <ul>
               <b>Sarah & Tom</b> pricier and their physical stores in Ottawa,
@@ -294,7 +295,13 @@ function App() {
               <b>Enhypen</b> Jake
             </ul>
             <ul>
+              <b>BTS</b> Suga
+            </ul>
+            <ul>
               <b>Twice</b> Mina
+            </ul>
+            <ul>
+              <b>Seventeen</b> Joshua
             </ul>
           </div>
         ) : (
